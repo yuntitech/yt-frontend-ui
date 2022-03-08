@@ -1,4 +1,4 @@
-# dumi-app
+# @yunti-private/yt-frontend-ui
 
 ## Getting Started
 

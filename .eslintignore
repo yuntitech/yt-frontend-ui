@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/docs-dist
+/es
+/lib
+/build
+/package-lock.json
+/yarn.lock
+
+.DS_Store

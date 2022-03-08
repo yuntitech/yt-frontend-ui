@@ -1,12 +1,11 @@
 {
-  "private": true,
   "name": "@yunti-private/yt-frontend-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
     "prepare": "husky install",
     "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d docs-dist",
+    "docs:deploy": "npm publish",
     "build": "father-build",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,css,less,scss,html,json,md}'",

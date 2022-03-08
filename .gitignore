@@ -8,12 +8,11 @@
 /package-lock.json
 
 # production
-/es
+/dist
 /docs-dist
 
 # misc
 .DS_Store
-/coverage
 
 # umi
 .umi
