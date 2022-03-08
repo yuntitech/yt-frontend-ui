@@ -1,6 +1,16 @@
 **/*.svg
 **/*.ejs
 **/*.html
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+
+/node_modules
+/dist
+/build
+/dist-docs
+
 package.json
 .umi
 .umi-production
