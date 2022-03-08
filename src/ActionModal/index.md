@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { ActionModal } from 'dumi-app';
+import { ActionModal } from '@yunti-private/yt-frontend-ui';
 import { Button } from 'antd';
 
 export default () => (

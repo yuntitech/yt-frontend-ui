@@ -9,9 +9,12 @@
 /node_modules
 /dist
 /build
-/dist-docs
+/docs-dist
+/es
+/lib
 
 package.json
+
 .umi
 .umi-production
 .umi-test

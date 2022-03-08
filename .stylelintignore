@@ -13,7 +13,11 @@
 .umi
 .umi-production
 .umi-test
+
 package.json
 /node_modules
 /dist
 /build
+/docs-dist
+/es
+/lib
