@@ -12,6 +12,10 @@ export default defineConfig({
   },
   base: '/module/',
   publicPath: '/module/',
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
   // more config: https://d.umijs.org/config
   extraBabelPlugins: [
     [
