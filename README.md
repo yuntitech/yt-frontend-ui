@@ -1,4 +1,4 @@
-# @yunti-private/yt-frontend-ui
+# @yunti/web-ui
 
 ## Getting Started
 

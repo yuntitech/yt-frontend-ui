@@ -1,1 +1,1 @@
-export { default as ActionModal } from './ActionModal';
+export { default as Foo } from './Foo';
