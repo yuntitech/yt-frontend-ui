@@ -1,6 +1,6 @@
 {
   "name": "@yunti/web-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "start": "dumi dev",
     "prepare": "husky install",
