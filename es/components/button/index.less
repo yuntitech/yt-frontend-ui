@@ -2,21 +2,21 @@
 
 .color(@bg, @bgHover, @bgActive) when (default()) {
   .ant-btn {
-    border-color: @bg;
     color: @text-color-inverse;
     background: @bg;
+    border-color: @bg;
 
     &:hover,
     &:focus {
-      border-color: @bgHover;
       color: @text-color-inverse;
       background: @bgHover;
+      border-color: @bgHover;
     }
 
     &:active {
-      border-color: @bgActive;
       color: @text-color-inverse;
       background: @bgActive;
+      border-color: @bgActive;
     }
   }
 }
