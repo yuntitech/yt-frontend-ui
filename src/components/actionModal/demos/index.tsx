@@ -8,6 +8,7 @@ const Demo = () => {
     // 关闭弹窗回调
     cb();
   };
+
   return (
     <ActionModal
       btn={<Button>Open</Button>}

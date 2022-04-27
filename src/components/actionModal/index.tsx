@@ -82,7 +82,7 @@ class ActionModal extends Component<ActionModalProps, IState> {
     } else {
       result.footer = footer;
     }
-    return result;
+    return result as { footer: ReactNode | undefined };
   };
 
   render() {
