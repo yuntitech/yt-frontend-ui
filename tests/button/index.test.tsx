@@ -1,13 +1,13 @@
 import '@testing-library/jest-dom';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Foo } from '../..';
+import { Button } from '../../src';
 
-describe('<Foo />', () => {
-  it('render Foo with dumi', () => {
-    const msg = 'dumi';
+describe('<Button />', () => {
+  it('render Button with dumi', () => {
+    const msg = 'Button';
 
-    render(<Foo title={msg} />);
+    render(<Button color="green">Button</Button>);
     expect(screen.queryByText(msg)).toBeInTheDocument();
   });
 });
