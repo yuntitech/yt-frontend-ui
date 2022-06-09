@@ -16,9 +16,9 @@
     "prepublishOnly": "npm run build",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
-  "main": "es/index.js",
+  "main": "lib/index.js",
   "module": "es/index.js",
-  "typings": "es/index.d.ts",
+  "typings": "lib/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -34,6 +34,11 @@
       "npm run eslint:fix"
     ]
   },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
   "dependencies": {
     "babel-plugin-import": "^1.13.3",
     "classnames": "^2.3.1",

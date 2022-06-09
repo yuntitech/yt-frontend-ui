@@ -1,4 +1,7 @@
 export default {
+  umd: {
+    minFile: true,
+  },
   cjs: { type: 'babel', lazy: true },
   esm: {
     type: 'babel',
