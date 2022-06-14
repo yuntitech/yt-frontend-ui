@@ -87,9 +87,6 @@
     "stylelint-order": "^5.0.0",
     "yorkie": "^2.0.0"
   },
-  "publishConfig": {
-    "registry": "https://npm.bookln.cn"
-  },
   "peerDependencies": {
     "antd": ">=4.18.0",
     "react": ">=17.0.0",
