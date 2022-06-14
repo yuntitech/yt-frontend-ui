@@ -33,6 +33,7 @@ module.exports = {
         'revert',
         'build',
         'merge',
+        'release',
       ],
     ],
   },
