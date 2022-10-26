@@ -10,8 +10,8 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
-  base: '/module/',
-  publicPath: '/module/',
+  base: '/',
+  publicPath: '/',
   locales: [
     ['zh-CN', '中文'],
     ['en-US', 'English'],
